@@ -139,6 +139,7 @@ function FrmCadastroAluno(){
   // Limpa os campos do formulário.     
   const limpar = () => {     
     setNome('');
+    setCurso('');
     setCpf('');
   };
 
